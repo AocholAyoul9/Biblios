@@ -20,6 +20,10 @@ composer install
 ## 3. Configure database (.env.local)
 
 - DATABASE_URL="mysql://root:password@127.0.0.1:3306/biblios?serverVersion=8.0.31"
+***  DATABASE POUR LE TEST (.env.test)**
+
+-DATABASE_URL="mysql://root:@127.0.0.1:3306/biblios-test?serverVersion=8.0.31"
+
 
 ## 4. Create database & run migrations
 - php bin/console doctrine:database:create
